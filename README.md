@@ -6,7 +6,8 @@ A new Flutter plugin project.
 
 This package is a collection of reusable widgets and components for Flutter.
 This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
+[plug-in package](https://pub.dev/packages/wuikit/),
+
 ![](./ss.gif)
 
 ## SimpleElevatedButton
@@ -38,13 +39,13 @@ Use case of the Simple Elevated Button:
 
 Use case of the Simple Elevated Button With Icon:
 
-    SimpleOutlinedButton(
+    SimpleElevatedButtonWithIcon(
         label: const Text("Done"),
         iconData: Icons.check,
         color: Colors.green,
         padding: const EdgeInsets.all(8),
         onPressed: () {},
-    ),
+        ),
 
 ## SimpleCircularIconButton
 
